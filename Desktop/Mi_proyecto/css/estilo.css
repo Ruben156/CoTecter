@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+}
+body {
+    background: seagreen;
+    color: purple;
+}
+.menu {
+    background: bisque;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    color: snow;
+     height: inherit;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     padding: 0px 10px;
+}
+.menu li {
+     height: inherit;
+}
+ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.Principal {
+    background-image: ;
+    background-size: cover;
+}
+.Principal-boton {
+    width: 400px;
+    height: 30px;
+    background-color: blanchedalmond;
+    border-radius: 24px;
+    border: none;
+}
+.logo img {
+    width: 100px;
+}
+li {
+    display: inline;
+    padding: 10px;
+    color: coral;
+}
+.uno {
+    padding: 20px;
+    width: 20%;
+}
+.Tendencias {
+    text-align: center;
+    background: url(../img/img6.jpg);
+    height: 850px;
+    background-size: 100%;
+    color: red;
+    padding-top: 30px;
+}
+.IA {
+    background: royalblue;
+    padding: 50px;
+    text-align: center;
+}
+.tres {
+    width: 30%;
+}
+.videos {
+    text-align: center;
+    background: green;
+}
+.RV {
+    
+}
+.Big Data {
+    background: peru;
+    text-align: center;
+    padding: 100px;
+}
+.padre {
+    background: crimson;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+
+}
+.hijo {
+    background: darkorange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rosybrown;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
